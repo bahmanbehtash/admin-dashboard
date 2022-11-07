@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="admin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+
+    <input type="checkbox" id="nav-toggle">
+    <div class="sidebar">
+        <div class="sidebar-brand">
+            <h2>
+                <span class="font-label">Bahman</span><span>Behtash</span>
+            </h2>
+        </div>
+
+        <div class="sidebar-menu">
+            <ul>
+                <li>
+                    <a href="#" class="active">
+                        <i class="fa-solid fa-chart-pie"></i>
+                        <span>last report</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-intercom"></i>
+                        <span>your customer</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fa-light fa-ticket"></i>
+                        <span>last ticket</span>
+                    </a>
+                </li>
+
+
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <span>cart list</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-rotate-left"></i>
+                        <span>history</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-user"></i>
+                        <span>user pannel</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="sidebar-button">
+            <span><a href="">support</a></span>
+            <span><a href="">log out</a></span>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <header>
+            <h3>
+                <label for="nav-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                <span>my dashboard</span>
+            </h3>
+
+            <div class="search-wrapper">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="search" placeholder="search by query">
+            </div>
+
+            <div class="user-wrapper">
+                <img src="/asset/user3.jpg" alt="bahman">
+                <div class="user-wrapper-info">
+                    <h3>mostafa shamkhani</h3>
+                    <p>control admin managment</p>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <!-- creat our cards div -->
+            <div class="cards">
+                <!-- now single card and more control -->
+                <div class="single-card-center">
+                    <div class="single-card">
+                        <h2>$6000</h2>
+                        <i class="fa-solid fa-money-check-dollar"></i>
+                    </div>
+                    <div>
+                        <h3>incomes in 90 days</h3>
+                    </div>
+                </div>
+
+                <div class="single-card-center">
+                    <div class="single-card">
+                        <h2>380 user</h2>
+                        <i class="fa-solid fa-users"></i>
+                    </div>
+                    <div>
+                        <h3>new user in 90 days</h3>
+                    </div>
+                </div>
+
+                <div class="single-card-center">
+                    <div class="single-card">
+                        <h2>15 course</h2>
+                        <i class="fa-solid fa-book-open-reader"></i>
+                    </div>
+                    <div>
+                        <h3>all of request</h3>
+                    </div>
+                </div>
+
+                <div class="single-card-center">
+                    <div class="single-card">
+                        <h2>project</h2>
+                        <i class="fa-solid fa-diagram-project"></i>
+                    </div>
+                    <div>
+                        <h3>new project in 90 days</h3>
+                    </div>
+                </div>
+            </div>
+
+            <!---------- new section ----------->
+            <div class="recent-grid">
+                <!-- projects control -->
+                <div class="projects">
+                    <div class="project-card">
+                        <div class="project-card-header">
+                            <h2>resent project</h2>
+                            <a href="">see all</a>
+                        </div>
+                        <!-- define body for card -->
+                        <div class="project-card-body">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <td>project title</td>
+                                        <td>department</td>
+                                        <td>status</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>UI/UX Designer</td>
+                                        <td>Web Developer</td>
+                                        <td><span class="status red"></span>in challge</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>UI/UX Designer</td>
+                                        <td>Web Developer</td>
+                                        <td><span class="status red"></span>in challge</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>UI/UX Designer</td>
+                                        <td>Web Developer</td>
+                                        <td><span class="status red"></span>in challge</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>UI/UX Designer</td>
+                                        <td>Web Developer</td>
+                                        <td><span class="status orange"></span>review</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>UI/UX Designer</td>
+                                        <td>Web Developer</td>
+                                        <td><span class="status red"></span>challenge</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>UI/UX Designer</td>
+                                        <td>Web Developer</td>
+                                        <td><span class="status purple"></span>in progress</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>UI/UX Designer</td>
+                                        <td>Web Developer</td>
+                                        <td><span class="status purple"></span>in progress</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>UI/UX Designer</td>
+                                        <td>Web Developer</td>
+                                        <td><span class="status red"></span>in challenge</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>UI/UX Designer</td>
+                                        <td>Web Developer</td>
+                                        <td><span class="status purple"></span>in progress</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>UI/UX Designer</td>
+                                        <td>Web Developer</td>
+                                        <td><span class="status orange"></span>review</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>UI/UX Designer</td>
+                                        <td>Web Developer</td>
+                                        <td><span class="status orange"></span>review</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- right side for customer -->
+                <div class="customers">
+                    <div class="project-card">
+                        <div class="project-card-header">
+                            <h3>new customer</h3>
+                            <a href="">see all</a>
+                        </div>
+                        <!-- define body for card -->
+                        <div class="project-card-body">
+                            <div class="project-card-customer">
+                                <!-- for more control -->
+                                <div class="customer-info">
+                                    <div class="customer-info-block">
+                                        <img src="/asset/bahman.jpeg" alt="" width="40px" height="40px">
+                                        <div>
+                                            <h4>bahman fallahi</h4>
+                                            <small>junior front-end developer</small>
+                                        </div>
+
+                                    </div>
+
+                                    <div>
+                                        <span>
+                                            <i class="fa-regular fa-user"></i>
+                                            <i class="fa-regular fa-envelope"></i>
+                                            <i class="fa-solid fa-phone"></i>
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="customer-info">
+                                    <div class="customer-info-block">
+                                        <img src="/asset/user1.jpg" alt="" width="40px" height="40px">
+                                        <div>
+                                            <h4>nasim tavassoli</h4>
+                                            <small>digital markter</small>
+                                        </div>
+                                    </div>
+                                    <!--  -->
+                                    <div>
+                                        <span>
+                                            <i class="fa-regular fa-user"></i>
+                                            <i class="fa-regular fa-envelope"></i>
+                                            <i class="fa-solid fa-phone"></i>
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="customer-info">
+                                    <div class="customer-info-block">
+                                        <img src="/asset/user2.jpg" alt="" width="40px" height="40px">
+                                        <div>
+                                            <h4>hossein aladini</h4>
+                                            <small>project manager</small>
+                                        </div>
+                                    </div>
+                                    <!--  -->
+                                    <div>
+                                        <span>
+                                            <i class="fa-regular fa-user"></i>
+                                            <i class="fa-regular fa-envelope"></i>
+                                            <i class="fa-solid fa-phone"></i>
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="customer-info">
+                                    <div class="customer-info-block">
+                                        <img src="/asset/user3.jpg" alt="" width="40px" height="40px">
+                                        <div>
+                                            <h4>mostafa shamkhani</h4>
+                                            <small>dev team lead</small>
+                                        </div>
+                                    </div>
+                                    <!--  -->
+                                    <div>
+                                        <span>
+                                            <i class="fa-regular fa-user"></i>
+                                            <i class="fa-regular fa-envelope"></i>
+                                            <i class="fa-solid fa-phone"></i>
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="customer-info">
+                                    <div class="customer-info-block">
+                                        <img src="/asset/user8.jpg" alt="" width="40px" height="40px">
+                                        <div>
+                                            <h4>aria ansari</h4>
+                                            <small>product owner</small>
+                                        </div>
+                                    </div>
+                                    <!--  -->
+                                    <div>
+                                        <span>
+                                            <i class="fa-regular fa-user"></i>
+                                            <i class="fa-regular fa-envelope"></i>
+                                            <i class="fa-solid fa-phone"></i>
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="customer-info">
+                                    <div class="customer-info-block">
+                                        <img src="/asset/user5.jpg" alt="" width="40px" height="40px">
+                                        <div>
+                                            <h4>mehdi dana</h4>
+                                            <small>campaign manager</small>
+                                        </div>
+                                    </div>
+                                    <!--  -->
+                                    <div>
+                                        <span>
+                                            <i class="fa-regular fa-user"></i>
+                                            <i class="fa-regular fa-envelope"></i>
+                                            <i class="fa-solid fa-phone"></i>
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="customer-info">
+                                    <div class="customer-info-block">
+                                        <img src="/asset/user6.jpg" alt="" width="40px" height="40px">
+                                        <div>
+                                            <h4>niloufar mohebali</h4>
+                                            <small>account manager</small>
+                                        </div>
+                                    </div>
+                                    <!--  -->
+                                    <div>
+                                        <span>
+                                            <i class="fa-regular fa-user"></i>
+                                            <i class="fa-regular fa-envelope"></i>
+                                            <i class="fa-solid fa-phone"></i>
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="customer-info">
+                                    <div class="customer-info-block">
+                                        <img src="/asset/user4.jpg" alt="" width="40px" height="40px">
+                                        <div>
+                                            <h4>sina ghorbanzadeh</h4>
+                                            <small>social media markter</small>
+                                        </div>
+                                    </div>
+                                    <!--  -->
+                                    <div>
+                                        <span>
+                                            <i class="fa-regular fa-user"></i>
+                                            <i class="fa-regular fa-envelope"></i>
+                                            <i class="fa-solid fa-phone"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <!--  -->
+                            </div>
+                        </div>
+                        <!--  -->
+                    </div>
+                </div>
+        </main>
+
+    </div>
+</body>
+</html>
